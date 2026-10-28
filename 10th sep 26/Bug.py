@@ -4,14 +4,6 @@ def group_numbers(numbers):
         "odd": []
     }
 
-    for number in numbers:
-        if number % 2 == 0:
-            result["odd"].append(number)
-        else:
-            result["even"].append(number)
-
-    return result
-
 
 test_cases = [
     [1, 2, 3, 4, 5, 6],
