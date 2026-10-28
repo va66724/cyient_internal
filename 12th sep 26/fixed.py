@@ -1,18 +1,6 @@
 import json
 
 
-def load_users(filename):
-    file = open(filename,"r")
-    data = json.load(file)
-    return data
-
-
-def find_user(users, username):
-    for user in users:
-        if user["name"].lower() == username:
-            return user
-    return None
-
 
 def calculate_average_score(user):
     total = 0
